@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Udvozolek az oldalamon, Cadar Zsombor a nevem
-harmadeves Informatika hallgato az UMFST egyetemen :|
+Welcome to my page :> , my name is Cadar Zsombor third year university
+student at UMFST University(yes i don't recommend it). Have fun reading these lies and please contact me if you wanna go grab a beer. 
 
 A data-driven personal website
 ======

@@ -3,35 +3,53 @@ layout: archive
 permalink: /chessboard/
 title: "Chess Board"
 ---
-
 <!-- inline css -->
 <style>
-    table{
-        border-color: black;
-    }
-    table,tr,td{
-        border: 1px solid black;
-    }
-    table.center{
-        margin: auto;
-    }
-
-    tr:nth-of-type(even)
-    td:nth-of-type(odd),
-    tr:nth-of-type(odd)
-    td:nth-of-type(even){
-        color:white;background-color: white;
-    }
-    tr:nth-of-type(even)
-    td:nth-of-type(odd),
-    tr:nth-of-type(even)
-    td:nth-of-type(odd){
-        color:black;background-color: black;
-    }
+  table {
+    border-collapse: collapse;
+    border-color: black;
+    margin: auto;
+  }
+  td {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+  }
+  td:hover{
+    box-shadow: inset 0 0 15px 5px aquamarine;
+    transform: scale(1.1);
+    border-radius: 5px;
+    cursor:pointer;
+  }
+ 
+  tr:nth-child(even) 
+  td:nth-child(odd),
+  tr:nth-child(odd) 
+  td:nth-child(even) {
+    background-color: teal;
+  }
+  tr:nth-child(even) 
+  td:nth-child(even),
+  tr:nth-child(odd) 
+  td:nth-child(odd) {
+    background-color: white;
+  }
+  body{
+    background-color: bisque;
+  }
 
 </style>
-
 <table id='sakktabla' cellspacing=0 class="center">
+    <th>a</th><th>b</th><th>c</th><th>d</th><th>e</th><th>f</th><th>g</th><th>h</th>
+    <tr>
+        <!-- bastya-lo-futo-kiralyno-kiraly-... -->
+        <td>♜</td> <td>♞</td> <td>♝</td> <td>♛</td> <td>♚</td> <td>♝</td> <td>♞</td> <td>♜</td>
+    </tr>
+    <tr>
+        <!-- parasztok -->
+        <td>♟</td><td>♟</td><td>♟</td><td>♟</td><td>♟</td><td>♟</td><td>♟</td><td>♟</td>    </tr>
     <tr>
         <td></td><td></td><td></td><td></td>
         <td></td><td></td><td></td><td></td>
@@ -49,19 +67,12 @@ title: "Chess Board"
         <td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-        <td></td><td></td><td></td><td></td>
-        <td></td><td></td><td></td><td></td>
+        <td>♙</td><td>♙</td><td>♙</td><td>♙</td><td>♙</td><td>♙</td><td>♙</td><td>♙</td>
+        <!-- parasztok -->
     </tr>
     <tr>
-        <td></td><td></td><td></td><td></td>
-        <td></td><td></td><td></td><td></td>
+        <td>♖</td> <td>♘</td> <td>♗</td> <td>♕</td> <td>♔</td> <td>♗</td> <td>♘</td> <td>♖</td>    
+        <!-- bastya-lo-futo-kiralyno-kiraly-... -->
     </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td>
-        <td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td>
-        <td></td><td></td><td></td><td></td>
-    </tr>
+    <th>a</th><th>b</th><th>c</th><th>d</th><th>e</th><th>f</th><th>g</th><th>h</th>
 </table>

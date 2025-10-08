@@ -22,5 +22,7 @@ But my dream is to become a game developer and maybe later a game director :>
 Hobby/Interest
 ======
 I like working out challenging myself.
+
 Gaming day and night.🎮
+
 Learning,experiencing new things.🪂

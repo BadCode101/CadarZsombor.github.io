@@ -24,7 +24,3 @@ Hobby/Interest
 I like working out challenging myself.
 Gaming day and night.🎮
 Learning,experiencing new things.🪂
-
-Here are some pictures that describe for you younglings the uni experience
-======
-<img src="images/university/excitement.jpg" alt="Waddles" width="200" style="border-radius:12px;">

@@ -26,13 +26,12 @@ author:
   avatar           : "waddles.webp"
   name             : "My Portofolio description"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "For contact please use my student email address cadar.zsombor.23@stud.umfst.ro, for personal zsombi.lift@gmail.com "
   location         : "Earth"
   employer         : "Red Brick University"
   uri              : # URL
-  student email            : "cadar.zsombor.23@stud.umfst.ro"
-  email            : "zsombi.lift@gmail.com" 
-
+  email            : "cadar.zsombor.23@stud.umfst.ro"
+ 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile

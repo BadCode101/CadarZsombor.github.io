@@ -13,8 +13,7 @@ title                    : "Cadar Zsombor / GitHub"
 title_separator          : "-"
 name                     : &name "Cadar Zsombor"
 description              : &description "Zsombor's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://badcode101.github.io/CadarZsombor.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://badcode101.github.io/CadarZsombor.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",                                                # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -26,12 +25,13 @@ author:
   avatar           : "waddles.webp"
   name             : "My Portofolio description"
   pronouns         : # example: "she/her"  
-  bio              : "For contact please use my student email address cadar.zsombor.23@stud.umfst.ro, for personal zsombi.lift@gmail.com "
+  bio              : "For contact please use my student email address: cadar.zsombor.23@stud.umfst.ro, for personal zsombi.lift@gmail.com "
   location         : "Hell"
   employer         : "UMFST University"
   uri              : # URL
-  email            : "cadar.zsombor.23@stud.umfst.ro"
- 
+  email: 
+  - "cadar.zsombor.23@stud.umfst.ro"
+  - "zsombi.lift@gmail.com"
   # # Academic websites
   # academia         : # URL
   # arxiv            : # URL - Update with the correct link to your profile
@@ -68,7 +68,7 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : # Username
+  steam            : "frenchfrieslover1"
   telegram         : # URL
   tumblr           : # Username
   twitter          : # Username for X / Twitter
